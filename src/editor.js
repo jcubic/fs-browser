@@ -2,6 +2,10 @@ import CodeMirror from 'codemirror';
 import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/twilight.css';
 
+import 'codemirror/addon/scroll/simplescrollbars';
+import 'codemirror/addon/scroll/simplescrollbars.css';
+import "codemirror/addon/edit/matchbrackets";
+
 import emacs from 'codemirror/keymap/emacs';
 import js from 'codemirror/mode/javascript/javascript';
 import ruby from 'codemirror/mode/ruby/ruby';
@@ -101,6 +105,9 @@ export default function(service, path) {
                 readOnly: readonly,
                 theme: 'twilight',
                 indentUnit: 4,
+                scrollbarStyle: "simple",
+                lineWrapping: true,
+                matchBrackets: true,
                 keymap: {
                     ...emacs,
                     "Ctrl-S": function(cm) {
