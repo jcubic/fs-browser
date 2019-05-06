@@ -1,0 +1,43 @@
+{
+  "name": "browser-fs",
+  "version": "0.1.0",
+  "description": "In Browser File System App",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcubic/fs-browser.git"
+  },
+  "keywords": [
+    "browser",
+    "fs",
+    "os",
+    "files",
+    "file-system",
+    "directory",
+    "explorer",
+    "ui",
+    "app"
+  ],
+  "author": "Jakub T. Jankiewicz <jcubic@onet.pl> (https://jcubic.pl/jakub-jankiewicz/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcubic/fs-browser/issues"
+  },
+  "homepage": "https://github.com/jcubic/fs-browser#readme",
+  "devDependencies": {
+    "@isomorphic-git/lightning-fs": "^3.2.1",
+    "codemirror": "^5.46.0",
+    "css-loader": "^2.1.1",
+    "expose-loader": "^0.7.5",
+    "file-loader": "^3.0.1",
+    "jquery-ui": "^1.12.1",
+    "jquery.filebrowser": "^0.8.2",
+    "style-loader": "^0.23.1",
+    "svg-url-loader": "^2.3.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
